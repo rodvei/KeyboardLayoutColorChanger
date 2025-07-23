@@ -32,7 +32,7 @@ if hasattr(sys, '_MEIPASS'):
 LOGO_PATH = os.path.join(ICONS_PATH, 'logo')
 FLAGS_PATH = os.path.join(ICONS_PATH, 'flags')
 
-LOGLEVEL = logging.INFO
+LOGLEVEL = logging.ERROR
 logging.basicConfig(filename=os.path.join(DATA_DIR, 'app.log'), level=LOGLEVEL, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
